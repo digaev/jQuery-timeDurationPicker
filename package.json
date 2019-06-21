@@ -1,6 +1,6 @@
 {
   "name": "jquery-time-duration-picker",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "jQuery-ui widget for choosing time duration",
   "scripts": {
     "test": "xdg-open ./tests/index.html 2> /dev/null",
