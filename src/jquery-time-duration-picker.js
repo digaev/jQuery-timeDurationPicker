@@ -502,27 +502,27 @@
       }
 
       if ( this.options.years ) {
-        this._content.years.val( duration.years );
+        this.years( duration.years );
       }
 
       if ( this.options.months ) {
-        this._content.months.val( duration.months );
+        this.months( duration.months );
       }
 
       if ( this.options.days ) {
-        this._content.days.val( duration.days );
+        this.days( duration.days );
       }
 
       if ( this.options.hours ) {
-        this._content.hours.val( duration.hours );
+        this.hours( duration.hours );
       }
 
       if ( this.options.minutes ) {
-        this._content.minutes.val( duration.minutes );
+        this.minutes( duration.minutes );
       }
 
       if ( this.options.seconds ) {
-        this._content.seconds.val( duration.seconds );
+        this.seconds( duration.seconds );
       }
     },
     setSeconds: function( value ) {
