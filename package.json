@@ -3,7 +3,7 @@
   "version": "2.2.5",
   "description": "jQuery-ui widget for choosing time duration",
   "scripts": {
-    "test": "xdg-open ./tests/index.html > /dev/null",
+    "test": "xdg-open ./tests/index.html 2> /dev/null",
     "build": "./node_modules/.bin/uglifyjs ./src/jquery-time-duration-picker.js -o ./dist/jquery-time-duration-picker.min.js"
   },
   "repository": {
